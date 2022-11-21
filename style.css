@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.add_NewProduct {
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 37px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  background-color: rgb(223, 231, 231);
+}
+
+.input_addNewProduct input {
+  width: 250px;
+  height: 30px;
+}
+
+.btn_addNewProduct button {
+  margin-left: 5px;
+  width: 50px;
+  color: white;
+  background-color: green;
+  height: 30px;
+}
+#EditProduct {
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 37px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  background-color: rgb(223, 231, 231);
+}
+
+.input_editProduct input {
+  width: 250px;
+  height: 30px;
+}
+
+.btn_editProduct button {
+  margin-left: 5px;
+  width: 50px;
+  color: white;
+  background-color: green;
+  height: 30px;
+}
+
+#displayProduct {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+td {
+  text-align: center;
+}
+
+span {
+  margin-left: 50px;
+}
+
+#displayProduct button {
+  background-color: green;
+  color: white;
+}

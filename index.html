@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- display product -->
+      <div id="displayProduct"></div>
+      <!-- add new product -->
+      <h3>Add New Product</h3>
+      <div class="add_NewProduct">
+        <div class="input_addNewProduct">
+          <input id="addNewProduct" type="text" />
+        </div>
+        <div class="btn_addNewProduct">
+          <button onclick="addNewProduct()">Add</button>
+        </div>
+      </div>
+      <!-- edit product -->
+      <h3>Edit Product</h3>
+      <div id="EditProduct">
+        <div class="input_editProduct">
+          <input id="editProduct" type="text" />
+        </div>
+        <div class="btn_editProduct">
+          <button onclick="changeNameProduct()">Edit</button>
+        </div>
+        <input type="hidden" id="editProductId" />
+      </div>
+    </div>
+    <script src="/product.js"></script>
+  </body>
+</html>
