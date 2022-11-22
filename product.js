@@ -1,4 +1,4 @@
-var array = ["Long", "Thu"];
+var array = ["Long"];
 let sout;
 function addNewProduct() {
   var product = document.getElementById("addNewProduct").value;
